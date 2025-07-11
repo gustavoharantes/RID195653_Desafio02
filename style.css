@@ -41,7 +41,7 @@ body{
     padding: 1.5rem;
     display: flex;
     align-items: flex-end;
-    box-shadow: 0px 0.625rem 1.25rem 0px rgba(0,0,0,0);
+    box-shadow: 0px 0.625rem 1.25rem 0px rgba(0,0,0,2);
 }
 .banner-info{
     max-width: 31.75rem;
@@ -50,7 +50,7 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 1rem;
-    line-height: 1;
+    line-height: 1.3125;
     color: #FFFFFF;
     margin: 0;
 }
@@ -65,6 +65,47 @@ body{
     margin: 0;
 }
 .banner-autor{
-    font-size: 0.875rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    line-height: 1.3125;
+    color: #FFFFFF;
     margin: 0;
+}
+.banner-autor-ng{
+    font-weight: 700;
+}
+.autor-nome{
+    font-weight: 500;
+}
+.side-cards{
+    padding: 2rem 1rem;
+}
+.popular-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.popular-post{
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0.25rem 0.5rem 0px rgba(0,0,0,0.08);
+    margin-bottom: 1.25rem;
+}
+.popular-post-title{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 0.5rem;;
+}
+.popular-post-date{
+    font-size: 0.875rem;
+    color: #666666;
+}
+.article-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 90rem;
+    
 }
